@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6176d106-7b88-415c-8741-bf519e7761ad" name="Default Changelist" comment="1.新增测试文件 a;&#10;2.删除文件 &quot;SQL 备份&quot;;&#10;3.修改文件 &quot;SqlMapConfig.xml&quot;;">
+    <list default="true" id="6176d106-7b88-415c-8741-bf519e7761ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +58,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IgnoredFileRootStore">
@@ -166,7 +171,7 @@
       <workItem from="1582721823838" duration="7079000" />
       <workItem from="1582778864565" duration="3917000" />
       <workItem from="1585276473669" duration="1299000" />
-      <workItem from="1591154809175" duration="5131000" />
+      <workItem from="1591154809175" duration="5696000" />
     </task>
     <task id="LOCAL-00001" summary="Commit Message">
       <created>1591160631973</created>
@@ -182,7 +187,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591161162414</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1.新增测试文件 a;&#10;2.删除文件 &quot;SQL 备份&quot;;&#10;3.修改文件 &quot;SqlMapConfig.xml&quot;;">
+      <created>1591161455511</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591161455511</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1.新增测试文件 a;&#10;2.删除文件 &quot;SQL 备份&quot;;&#10;3.修改文件 &quot;SqlMapConfig.xml&quot;;">
+      <created>1591161577660</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591161577660</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,10 +221,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="925" y="332" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591156515210" />
-    <state x="976" y="118" key="CommitChangelistDialog2" timestamp="1591161454843">
+    <state x="500" y="97" key="CommitChangelistDialog2" timestamp="1591161576981">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="976" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591161454843" />
+    <state x="500" y="97" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591161576981" />
     <state x="1216" y="242" key="FileChooserDialogImpl" timestamp="1591161547040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -234,6 +253,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="698" y="230" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591160529009" />
+    <state x="634" y="321" key="Vcs.Push.Dialog.v2" timestamp="1591161609363">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="634" y="321" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591161609363" />
     <state x="818" y="460" key="com.intellij.ide.util.TipDialog" timestamp="1585276482231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -242,6 +265,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="636" y="127" width="1083" height="786" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582782434694" />
+    <state x="891" y="372" key="git4idea.merge.GitMergeDialog" timestamp="1591162082650">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="891" y="372" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591162082650" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582727649687">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
