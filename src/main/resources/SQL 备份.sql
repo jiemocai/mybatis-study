@@ -21,12 +21,3 @@ insert into user(username, birthday, sex, address)
 values ('张三', '2000-01-03 19:13:12', '男', '湖北武汉'),
        ('晨晨', '1996-01-03 19:13:12', '女', '湖北武汉'),
        ('何妮妮', '1998-12-15 14:25:45', '女', '湖北十堰');
-
-select *
-from user
-where id > 2;
-
-select id from user;
-
-select '21';
-
