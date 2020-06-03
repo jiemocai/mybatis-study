@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09ccb7ec-4385-4dad-bf7e-b6c001857b5b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/第一次课程提交测试" beforeDir="false" />
+    <list default="true" id="09ccb7ec-4385-4dad-bf7e-b6c001857b5b" name="Default Changelist" comment="intellij 修改 2020-06-03 22:19">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +50,11 @@
     <favorites_list name="mybatis-study" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -109,8 +114,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="bb.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mybatis-study/com/bb.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="aa.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/main/resources/aa.js" working-dir="$PROJECT_DIR$/src/main/resources">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.aa.js" />
+        <item itemvalue="JUnit.MybatisTest.test" />
+        <item itemvalue="JavaScript Debug.bb.html" />
         <item itemvalue="JUnit.MybatisTest.test" />
         <item itemvalue="JUnit.MybatisTest" />
       </list>
@@ -253,7 +267,14 @@
       <updated>1591193592866</updated>
       <workItem from="1591193594052" duration="118000" />
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="intellij 修改 2020-06-03 22:19">
+      <created>1591194003048</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1591194003048</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +328,8 @@
     <MESSAGE value="intellij 修改 2020-06-03 19:20" />
     <MESSAGE value="intellij 修改 2020-06-03 19:52" />
     <MESSAGE value="intellij 修改 2020-06-03 22:04" />
-    <option name="LAST_COMMIT_MESSAGE" value="intellij 修改 2020-06-03 22:04" />
+    <MESSAGE value="intellij 修改 2020-06-03 22:19" />
+    <option name="LAST_COMMIT_MESSAGE" value="intellij 修改 2020-06-03 22:19" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Inspections" timestamp="1591181072273">
@@ -322,10 +344,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="695" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591181368147" />
-    <state x="531" y="112" key="CommitChangelistDialog2" timestamp="1591193748892">
+    <state x="531" y="112" key="CommitChangelistDialog2" timestamp="1591194079823">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="531" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591193748892" />
+    <state x="531" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591194079823" />
     <state x="181" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1591193362594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -350,22 +372,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="938" height="226" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591191847828" />
-    <state x="-50" y="0" width="1703" height="868" key="MergeDialog" timestamp="1591185001620">
+    <state x="91" y="34" width="1703" height="868" key="MergeDialog" timestamp="1591194414000">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="-50" y="0" width="1703" height="868" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591185001620" />
-    <state x="669" y="235" key="MultipleFileMergeDialog" timestamp="1591185001627">
+    <state x="91" y="34" width="1703" height="868" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591194414000" />
+    <state x="669" y="235" key="MultipleFileMergeDialog" timestamp="1591194415872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="669" y="235" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591185001627" />
+    <state x="669" y="235" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591194415872" />
     <state x="867" y="286" key="SettingsEditor" timestamp="1591193712658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="867" y="286" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591193712658" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1591193404304">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1591194015039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591193404304" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591194015039" />
     <state x="909" y="371" key="VcsDiffUtil.ChangesDialog" timestamp="1591184286875">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -374,14 +396,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="609" y="201" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591183769772" />
-    <state x="706" y="232" key="git4idea.branch.GitSmartOperationDialog" timestamp="1591193251460">
+    <state x="706" y="232" key="git4idea.branch.GitSmartOperationDialog" timestamp="1591194405538">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="706" y="232" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591193251460" />
-    <state x="703" y="311" key="git4idea.merge.GitMergeDialog" timestamp="1591193428682">
+    <state x="706" y="232" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591194405538" />
+    <state x="703" y="311" key="git4idea.merge.GitMergeDialog" timestamp="1591194091727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="703" y="311" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591193428682" />
+    <state x="703" y="311" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591194091727" />
     <state x="656" y="311" key="git4idea.merge.GitPullDialog" timestamp="1591184449744">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
