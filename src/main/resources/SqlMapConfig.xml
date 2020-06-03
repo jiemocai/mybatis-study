@@ -27,5 +27,4 @@
         <mapper resource="com/dao/IUserDao.xml" />
     </mappers>
 
-    <!--123124 -->
 </configuration>
