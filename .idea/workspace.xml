@@ -49,7 +49,34 @@
   <component name="FavoritesManager">
     <favorites_list name="mybatis-study" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\MAVEN\repository" />
+        <option name="mavenHome" value="D:/Work Software/Apache/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Work Software\Apache\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1coSk28HqnWmApL3DIDoV6MbnpQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
   <component name="RunManager" selected="JUnit.MybatisTest.test">
     <configuration name="MybatisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-study" />
@@ -218,8 +245,19 @@
       <option name="project" value="LOCAL" />
       <updated>1591193087882</updated>
     </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="09ccb7ec-4385-4dad-bf7e-b6c001857b5b" name="Default Changelist" comment="" />
+      <created>1591193592866</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591193592866</updated>
+      <workItem from="1591193594052" duration="118000" />
+    </task>
     <option name="localTasksCounter" value="17" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -292,10 +330,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="181" y="86" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591193362594" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1591184117300">
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1591193672847">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591184117300" />
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591193672847" />
     <state width="938" height="226" key="GridCell.Tab.0.bottom" timestamp="1591191847828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -320,10 +358,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="235" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591185001627" />
-    <state x="867" y="286" key="SettingsEditor" timestamp="1591181055191">
+    <state x="867" y="286" key="SettingsEditor" timestamp="1591193712658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="867" y="286" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591181055191" />
+    <state x="867" y="286" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591193712658" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1591193404304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
