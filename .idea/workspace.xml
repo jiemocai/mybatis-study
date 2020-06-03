@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6176d106-7b88-415c-8741-bf519e7761ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/a" afterDir="false" />
+    <list default="true" id="6176d106-7b88-415c-8741-bf519e7761ad" name="Default Changelist" comment="1.新增测试文件 a;&#10;2.删除文件 &quot;SQL 备份&quot;;&#10;3.修改文件 &quot;SqlMapConfig.xml&quot;;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/SQL 备份" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +166,7 @@
       <workItem from="1582721823838" duration="7079000" />
       <workItem from="1582778864565" duration="3917000" />
       <workItem from="1585276473669" duration="1299000" />
-      <workItem from="1591154809175" duration="4742000" />
+      <workItem from="1591154809175" duration="5131000" />
     </task>
     <task id="LOCAL-00001" summary="Commit Message">
       <created>1591160631973</created>
@@ -179,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591160631973</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.新增测试文件 a;&#10;2.删除文件 &quot;SQL 备份&quot;;&#10;3.修改文件 &quot;SqlMapConfig.xml&quot;;">
+      <created>1591161162414</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591161162414</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +190,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit Message" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit Message" />
+    <MESSAGE value="1.新增测试文件 a;&#10;2.删除文件 &quot;SQL 备份&quot;;&#10;3.修改文件 &quot;SqlMapConfig.xml&quot;;" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.新增测试文件 a;&#10;2.删除文件 &quot;SQL 备份&quot;;&#10;3.修改文件 &quot;SqlMapConfig.xml&quot;;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="460" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591158963290">
@@ -198,10 +202,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="925" y="332" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591156515210" />
-    <state x="867" y="124" key="CommitChangelistDialog2" timestamp="1591160631119">
+    <state x="976" y="118" key="CommitChangelistDialog2" timestamp="1591161384099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="867" y="124" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591160631119" />
+    <state x="976" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591161384099" />
     <state x="1216" y="242" key="FileChooserDialogImpl" timestamp="1591160536047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -210,22 +214,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1441" y="452" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591160691172" />
-    <state width="1455" height="237" key="GridCell.Tab.0.bottom" timestamp="1582726224554">
+    <state width="1877" height="226" key="GridCell.Tab.0.bottom" timestamp="1591161171022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1455" height="237" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582726224554" />
-    <state width="1455" height="237" key="GridCell.Tab.0.center" timestamp="1582726224554">
+    <state width="1877" height="226" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591161171022" />
+    <state width="1877" height="226" key="GridCell.Tab.0.center" timestamp="1591161171022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1455" height="237" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582726224554" />
-    <state width="1455" height="237" key="GridCell.Tab.0.left" timestamp="1582726224554">
+    <state width="1877" height="226" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591161171022" />
+    <state width="1877" height="226" key="GridCell.Tab.0.left" timestamp="1591161171022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1455" height="237" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582726224554" />
-    <state width="1455" height="237" key="GridCell.Tab.0.right" timestamp="1582726224554">
+    <state width="1877" height="226" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591161171022" />
+    <state width="1877" height="226" key="GridCell.Tab.0.right" timestamp="1591161171022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1455" height="237" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582726224554" />
+    <state width="1877" height="226" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591161171022" />
     <state x="698" y="230" key="SettingsEditor" timestamp="1591160529009">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
