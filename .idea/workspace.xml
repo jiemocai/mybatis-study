@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="6176d106-7b88-415c-8741-bf519e7761ad" name="Default Changelist" comment="1.新增测试文件 a;&#10;2.删除文件 &quot;SQL 备份&quot;;&#10;3.修改文件 &quot;SqlMapConfig.xml&quot;;">
+=======
+    <list default="true" id="6176d106-7b88-415c-8741-bf519e7761ad" name="Default Changelist" comment="1.提交分支，第一次简单课程">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/SQL 备份.sql" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/第一次课程提交测试" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +98,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
@@ -166,7 +173,11 @@
       <workItem from="1582721823838" duration="7079000" />
       <workItem from="1582778864565" duration="3917000" />
       <workItem from="1585276473669" duration="1299000" />
+<<<<<<< Updated upstream
       <workItem from="1591154809175" duration="5131000" />
+=======
+      <workItem from="1591154809175" duration="6493000" />
+>>>>>>> Stashed changes
     </task>
     <task id="LOCAL-00001" summary="Commit Message">
       <created>1591160631973</created>
@@ -182,7 +193,67 @@
       <option name="project" value="LOCAL" />
       <updated>1591161162414</updated>
     </task>
+<<<<<<< Updated upstream
     <option name="localTasksCounter" value="3" />
+=======
+    <task id="LOCAL-00003" summary="1.新增测试文件 a;&#10;2.删除文件 &quot;SQL 备份&quot;;&#10;3.修改文件 &quot;SqlMapConfig.xml&quot;;">
+      <created>1591161455511</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591161455511</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1.新增测试文件 a;&#10;2.删除文件 &quot;SQL 备份&quot;;&#10;3.修改文件 &quot;SqlMapConfig.xml&quot;;">
+      <created>1591161577660</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591161577660</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1.提交分支1，第一次简单课程">
+      <created>1591162142646</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591162142646</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1.提交分支1，第一次简单课程">
+      <created>1591162193400</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591162193400</updated>
+    </task>
+    <task id="LOCAL-00007" summary="1.提交分支1，第一次简单课程">
+      <created>1591162250241</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591162250241</updated>
+    </task>
+    <task id="LOCAL-00008" summary="1.提交分支1，第一次简单课程">
+      <created>1591162330219</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591162330219</updated>
+    </task>
+    <task id="LOCAL-00009" summary="1.提交分支，第一次简单课程">
+      <created>1591162416049</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591162416049</updated>
+    </task>
+    <task id="LOCAL-00010" summary="1.提交分支，第一次简单课程">
+      <created>1591162474771</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1591162474771</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+>>>>>>> Stashed changes
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,18 +262,36 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit Message" />
     <MESSAGE value="1.新增测试文件 a;&#10;2.删除文件 &quot;SQL 备份&quot;;&#10;3.修改文件 &quot;SqlMapConfig.xml&quot;;" />
+<<<<<<< Updated upstream
     <option name="LAST_COMMIT_MESSAGE" value="1.新增测试文件 a;&#10;2.删除文件 &quot;SQL 备份&quot;;&#10;3.修改文件 &quot;SqlMapConfig.xml&quot;;" />
+=======
+    <MESSAGE value="1.提交分支1，第一次简单课程" />
+    <MESSAGE value="1.提交分支，第一次简单课程" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.提交分支，第一次简单课程" />
+>>>>>>> Stashed changes
   </component>
   <component name="WindowStateProjectService">
     <state x="460" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591158963290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="460" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591158963290" />
+<<<<<<< Updated upstream
     <state x="925" y="332" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591156515210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="925" y="332" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591156515210" />
     <state x="976" y="118" key="CommitChangelistDialog2" timestamp="1591161454843">
+=======
+    <state x="925" y="332" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591162293921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="925" y="332" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591162293921" />
+    <state x="500" y="97" key="CommitChangelistDialog2" timestamp="1591162709905">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="500" y="97" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591162709905" />
+    <state x="150" y="71" key="DiffContextDialog" timestamp="1591162247419">
+>>>>>>> Stashed changes
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="976" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591161454843" />
@@ -234,6 +323,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="698" y="230" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591160529009" />
+<<<<<<< Updated upstream
+=======
+    <state x="634" y="321" key="Vcs.Push.Dialog.v2" timestamp="1591162495221">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="634" y="321" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591162495221" />
+>>>>>>> Stashed changes
     <state x="818" y="460" key="com.intellij.ide.util.TipDialog" timestamp="1585276482231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
