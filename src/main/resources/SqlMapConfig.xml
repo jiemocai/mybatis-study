@@ -27,6 +27,5 @@
         <mapper resource="com/dao/IUserDao.xml" />
     </mappers>
 
-    <!-- 指定映射配置文件的位置（路径），映射配置文件指的是每个dao独立的配置文-->
-
+    <!--123124 -->
 </configuration>
