@@ -18,13 +18,3 @@ primary key (id)
 insert into user(username,birthday,sex,address) values('张三','2000-01-03 19:13:12','男','湖北武汉'),('晨晨','1996-01-03 19:13:12','女','湖北武汉');
 
 select * from user
-
--- github 修改
--- github 修改2 github 修改3  github 修改4
-
-
--- interllij 修改测试
--- interllij 修改测试2
--- interllij 修改测试3
-
--- interllij 修改测试4
