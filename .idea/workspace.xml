@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09ccb7ec-4385-4dad-bf7e-b6c001857b5b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SQL 备份" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591185166422</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="intellij 修改 2020-06-03 22:04">
+      <created>1591193087882</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1591193087882</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,7 +268,8 @@
     <MESSAGE value="intellij 修改 2020-06-03 19:10" />
     <MESSAGE value="intellij 修改 2020-06-03 19:20" />
     <MESSAGE value="intellij 修改 2020-06-03 19:52" />
-    <option name="LAST_COMMIT_MESSAGE" value="intellij 修改 2020-06-03 19:52" />
+    <MESSAGE value="intellij 修改 2020-06-03 22:04" />
+    <option name="LAST_COMMIT_MESSAGE" value="intellij 修改 2020-06-03 22:04" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Inspections" timestamp="1591181072273">
@@ -278,14 +284,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="695" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591181368147" />
-    <state x="531" y="112" key="CommitChangelistDialog2" timestamp="1591185165785">
+    <state x="531" y="112" key="CommitChangelistDialog2" timestamp="1591193087131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="531" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591185165785" />
-    <state x="181" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1591184601950">
+    <state x="531" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591193087131" />
+    <state x="181" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1591193362594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="181" y="86" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591184601950" />
+    <state x="181" y="86" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591193362594" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1591184117300">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -318,10 +324,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="867" y="286" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591181055191" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1591185184690">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1591193404304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591185184690" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591193404304" />
     <state x="909" y="371" key="VcsDiffUtil.ChangesDialog" timestamp="1591184286875">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -330,10 +336,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="609" y="201" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591183769772" />
-    <state x="703" y="311" key="git4idea.merge.GitMergeDialog" timestamp="1591163496378">
+    <state x="706" y="232" key="git4idea.branch.GitSmartOperationDialog" timestamp="1591193251460">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="703" y="311" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591163496378" />
+    <state x="706" y="232" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591193251460" />
+    <state x="703" y="311" key="git4idea.merge.GitMergeDialog" timestamp="1591193428682">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="703" y="311" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591193428682" />
     <state x="656" y="311" key="git4idea.merge.GitPullDialog" timestamp="1591184449744">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
