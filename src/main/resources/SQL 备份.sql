@@ -28,3 +28,5 @@ where id > 2;
 
 select * from user;
 
+select '21';
+
