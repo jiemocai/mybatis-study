@@ -19,3 +19,4 @@ insert into user(username,birthday,sex,address) values('张三','2000-01-03 19:1
 
 select * from user
 
+-- interllij 修改测试
