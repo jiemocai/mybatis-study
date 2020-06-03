@@ -26,3 +26,5 @@ select *
 from user
 where id > 2;
 
+select * from user;
+
