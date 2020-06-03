@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
-    <list default="true" id="6176d106-7b88-415c-8741-bf519e7761ad" name="Default Changelist" comment="1.新增测试文件 a;&#10;2.删除文件 &quot;SQL 备份&quot;;&#10;3.修改文件 &quot;SqlMapConfig.xml&quot;;">
-=======
-    <list default="true" id="6176d106-7b88-415c-8741-bf519e7761ad" name="Default Changelist" comment="1.提交分支，第一次简单课程">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SQL 备份.sql" afterDir="false" />
->>>>>>> Stashed changes
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/第一次课程提交测试" beforeDir="false" />
+    <list default="true" id="09ccb7ec-4385-4dad-bf7e-b6c001857b5b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SQL 备份" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,67 +48,26 @@
     </expand>
     <select />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="FxmlFile" />
-        <option value="Class" />
-        <option value="JavaScript File" />
-        <option value="HTML File" />
-      </list>
-    </option>
+  <component name="FavoritesManager">
+    <favorites_list name="mybatis-study" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="D:\Itellij_workspace\framework_study\mybatis-study\.idea" />
-      </set>
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="localRepository" value="D:\MAVEN\repository" />
-        <option name="mavenHome" value="D:/Work Software/Apache/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="D:\Work Software\Apache\apache-maven-3.6.3\conf\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1VHbMtYkDaezAH8Ym8JNFdTVbfQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.dao" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Work Software\Itellij_workspace\framework study\mybatis-study\src\main\resources" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Work Software\Itellij_workspace\framework study\mybatis-study\src\main\resources\com" />
-      <recent name="D:\Work Software\Itellij_workspace\framework study\mybatis-study\src\main\resources\com\dao" />
-    </key>
-  </component>
   <component name="RunManager" selected="JUnit.MybatisTest.test">
+    <configuration name="MybatisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com" />
+      <option name="MAIN_CLASS_NAME" value="com.MybatisTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MybatisTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-study" />
       <extension name="coverage">
@@ -130,17 +84,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bb.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mybatis-study/com/bb.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="aa.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/main/resources/aa.js" working-dir="$PROJECT_DIR$/src/main/resources">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MybatisTest.test" />
-        <item itemvalue="JavaScript Debug.bb.html" />
-        <item itemvalue="Node.js.aa.js" />
+        <item itemvalue="JUnit.MybatisTest" />
       </list>
     </recent_temporary>
   </component>
@@ -161,190 +108,239 @@
     <configuration />
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="6176d106-7b88-415c-8741-bf519e7761ad" name="Default Changelist" comment="" />
-      <created>1576912922246</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1576912922246</updated>
-      <workItem from="1576912925951" duration="9715000" />
-      <workItem from="1577002972931" duration="1000000" />
-      <workItem from="1581690408551" duration="623000" />
-      <workItem from="1582721823838" duration="7079000" />
-      <workItem from="1582778864565" duration="3917000" />
-      <workItem from="1585276473669" duration="1299000" />
-<<<<<<< Updated upstream
-      <workItem from="1591154809175" duration="5131000" />
-=======
-      <workItem from="1591154809175" duration="6493000" />
->>>>>>> Stashed changes
-    </task>
-    <task id="LOCAL-00001" summary="Commit Message">
-      <created>1591160631973</created>
+    <task id="LOCAL-00001" summary="主分支提交">
+      <created>1591162867479</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1591160631973</updated>
+      <updated>1591162867479</updated>
     </task>
-    <task id="LOCAL-00002" summary="1.新增测试文件 a;&#10;2.删除文件 &quot;SQL 备份&quot;;&#10;3.修改文件 &quot;SqlMapConfig.xml&quot;;">
-      <created>1591161162414</created>
+    <task id="LOCAL-00002" summary="主分支修改提交，修改 “SQL 备份.sql”">
+      <created>1591163111566</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1591161162414</updated>
+      <updated>1591163111566</updated>
     </task>
-<<<<<<< Updated upstream
-    <option name="localTasksCounter" value="3" />
-=======
-    <task id="LOCAL-00003" summary="1.新增测试文件 a;&#10;2.删除文件 &quot;SQL 备份&quot;;&#10;3.修改文件 &quot;SqlMapConfig.xml&quot;;">
-      <created>1591161455511</created>
+    <task id="LOCAL-00003" summary="主分支修改提交，修改 “SQL 备份.sql”">
+      <created>1591163256070</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1591161455511</updated>
+      <updated>1591163256070</updated>
     </task>
-    <task id="LOCAL-00004" summary="1.新增测试文件 a;&#10;2.删除文件 &quot;SQL 备份&quot;;&#10;3.修改文件 &quot;SqlMapConfig.xml&quot;;">
-      <created>1591161577660</created>
+    <task id="LOCAL-00004" summary="主分支修改提交，修改 “SQL 备份.sql”">
+      <created>1591163406143</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1591161577660</updated>
+      <updated>1591163406143</updated>
     </task>
-    <task id="LOCAL-00005" summary="1.提交分支1，第一次简单课程">
-      <created>1591162142646</created>
+    <task id="LOCAL-00005" summary="主分支修改提交，修改 “SQL 备份.sql”">
+      <created>1591163533708</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1591162142646</updated>
+      <updated>1591163533708</updated>
     </task>
-    <task id="LOCAL-00006" summary="1.提交分支1，第一次简单课程">
-      <created>1591162193400</created>
+    <task id="LOCAL-00006" summary="intellij 主分支修改提交，修改 “SQL 备份.sql”">
+      <created>1591163690190</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1591162193400</updated>
+      <updated>1591163690190</updated>
     </task>
-    <task id="LOCAL-00007" summary="1.提交分支1，第一次简单课程">
-      <created>1591162250241</created>
+    <task id="LOCAL-00007" summary="intellij 主分支修改提交，修改 “SQL 备份.sql”">
+      <created>1591163812915</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1591162250241</updated>
+      <updated>1591163812915</updated>
     </task>
-    <task id="LOCAL-00008" summary="1.提交分支1，第一次简单课程">
-      <created>1591162330219</created>
+    <task id="LOCAL-00008" summary="intellij 修改 2020-06-03 18:30">
+      <created>1591180345839</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1591162330219</updated>
+      <updated>1591180345839</updated>
     </task>
-    <task id="LOCAL-00009" summary="1.提交分支，第一次简单课程">
-      <created>1591162416049</created>
+    <task id="LOCAL-00009" summary="intellij 修改 2020-06-03 18:35">
+      <created>1591180544380</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1591162416049</updated>
+      <updated>1591180544380</updated>
     </task>
-    <task id="LOCAL-00010" summary="1.提交分支，第一次简单课程">
-      <created>1591162474771</created>
+    <task id="LOCAL-00010" summary="intellij 修改 2020-06-03 18:50">
+      <created>1591181411662</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1591162474771</updated>
+      <updated>1591181411662</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
->>>>>>> Stashed changes
+    <task id="LOCAL-00011" summary="intellij 修改 2020-06-03 18:58">
+      <created>1591181942520</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1591181942520</updated>
+    </task>
+    <task id="LOCAL-00012" summary="intellij 修改 2020-06-03 19:10">
+      <created>1591182676144</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1591182676144</updated>
+    </task>
+    <task id="LOCAL-00013" summary="intellij 修改 2020-06-03 19:20">
+      <created>1591183243309</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1591183243309</updated>
+    </task>
+    <task id="LOCAL-00014" summary="intellij 修改 2020-06-03 19:20">
+      <created>1591184753878</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1591184753878</updated>
+    </task>
+    <task id="LOCAL-00015" summary="intellij 修改 2020-06-03 19:52">
+      <created>1591185166422</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1591185166422</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit Message" />
-    <MESSAGE value="1.新增测试文件 a;&#10;2.删除文件 &quot;SQL 备份&quot;;&#10;3.修改文件 &quot;SqlMapConfig.xml&quot;;" />
-<<<<<<< Updated upstream
-    <option name="LAST_COMMIT_MESSAGE" value="1.新增测试文件 a;&#10;2.删除文件 &quot;SQL 备份&quot;;&#10;3.修改文件 &quot;SqlMapConfig.xml&quot;;" />
-=======
-    <MESSAGE value="1.提交分支1，第一次简单课程" />
-    <MESSAGE value="1.提交分支，第一次简单课程" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.提交分支，第一次简单课程" />
->>>>>>> Stashed changes
+    <MESSAGE value="主分支提交" />
+    <MESSAGE value="主分支修改提交，修改 “SQL 备份.sql”" />
+    <MESSAGE value="intellij 主分支修改提交，修改 “SQL 备份.sql”" />
+    <MESSAGE value="intellij 修改 2020-06-03 18:30" />
+    <MESSAGE value="intellij 修改 2020-06-03 18:35" />
+    <MESSAGE value="intellij 修改 2020-06-03 18:50" />
+    <MESSAGE value="intellij 修改 2020-06-03 18:58" />
+    <MESSAGE value="intellij 修改 2020-06-03 19:10" />
+    <MESSAGE value="intellij 修改 2020-06-03 19:20" />
+    <MESSAGE value="intellij 修改 2020-06-03 19:52" />
+    <option name="LAST_COMMIT_MESSAGE" value="intellij 修改 2020-06-03 19:52" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="460" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591158963290">
+    <state x="552" y="178" key="#Inspections" timestamp="1591181072273">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="460" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591158963290" />
-<<<<<<< Updated upstream
-    <state x="925" y="332" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591156515210">
+    <state x="552" y="178" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1591181072273" />
+    <state x="552" y="178" key="#SQL_Dialects" timestamp="1591180901800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="925" y="332" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591156515210" />
-    <state x="976" y="118" key="CommitChangelistDialog2" timestamp="1591161454843">
-=======
-    <state x="925" y="332" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591162293921">
+    <state x="552" y="178" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1591180901800" />
+    <state x="695" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591181368147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="925" y="332" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591162293921" />
-    <state x="500" y="97" key="CommitChangelistDialog2" timestamp="1591162709905">
+    <state x="695" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591181368147" />
+    <state x="531" y="112" key="CommitChangelistDialog2" timestamp="1591185165785">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="500" y="97" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591162709905" />
-    <state x="150" y="71" key="DiffContextDialog" timestamp="1591162247419">
->>>>>>> Stashed changes
+    <state x="531" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591185165785" />
+    <state x="181" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1591184601950">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="976" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591161454843" />
-    <state x="1216" y="242" key="FileChooserDialogImpl" timestamp="1591161547040">
+    <state x="181" y="86" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591184601950" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1591184117300">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1216" y="242" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591161547040" />
-    <state x="1441" y="452" key="Github.ShareDialog" timestamp="1591160691172">
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591184117300" />
+    <state width="938" height="226" key="GridCell.Tab.0.bottom" timestamp="1591191847828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1441" y="452" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591160691172" />
-    <state width="1877" height="226" key="GridCell.Tab.0.bottom" timestamp="1591161171022">
+    <state width="938" height="226" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591191847828" />
+    <state width="938" height="226" key="GridCell.Tab.0.center" timestamp="1591191847828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="226" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591161171022" />
-    <state width="1877" height="226" key="GridCell.Tab.0.center" timestamp="1591161171022">
+    <state width="938" height="226" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591191847828" />
+    <state width="938" height="226" key="GridCell.Tab.0.left" timestamp="1591191847828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="226" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591161171022" />
-    <state width="1877" height="226" key="GridCell.Tab.0.left" timestamp="1591161171022">
+    <state width="938" height="226" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591191847828" />
+    <state width="938" height="226" key="GridCell.Tab.0.right" timestamp="1591191847828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="226" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591161171022" />
-    <state width="1877" height="226" key="GridCell.Tab.0.right" timestamp="1591161171022">
+    <state width="938" height="226" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591191847828" />
+    <state x="-50" y="0" width="1703" height="868" key="MergeDialog" timestamp="1591185001620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="226" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591161171022" />
-    <state x="698" y="230" key="SettingsEditor" timestamp="1591160529009">
+    <state x="-50" y="0" width="1703" height="868" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591185001620" />
+    <state x="669" y="235" key="MultipleFileMergeDialog" timestamp="1591185001627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="698" y="230" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591160529009" />
-<<<<<<< Updated upstream
-=======
-    <state x="634" y="321" key="Vcs.Push.Dialog.v2" timestamp="1591162495221">
+    <state x="669" y="235" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591185001627" />
+    <state x="867" y="286" key="SettingsEditor" timestamp="1591181055191">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="634" y="321" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591162495221" />
->>>>>>> Stashed changes
-    <state x="818" y="460" key="com.intellij.ide.util.TipDialog" timestamp="1585276482231">
+    <state x="867" y="286" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591181055191" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1591185184690">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="818" y="460" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585276482231" />
-    <state x="636" y="127" width="1083" height="786" key="find.popup" timestamp="1582782434694">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591185184690" />
+    <state x="909" y="371" key="VcsDiffUtil.ChangesDialog" timestamp="1591184286875">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="636" y="127" width="1083" height="786" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582782434694" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582727649687">
+    <state x="909" y="371" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591184286875" />
+    <state x="609" y="201" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591183769772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582727649687" />
-    <state x="1365" y="538" key="svn.repositoryBrowser" timestamp="1591160195393">
+    <state x="609" y="201" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591183769772" />
+    <state x="703" y="311" key="git4idea.merge.GitMergeDialog" timestamp="1591163496378">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1365" y="538" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1591160195393" />
+    <state x="703" y="311" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591163496378" />
+    <state x="656" y="311" key="git4idea.merge.GitPullDialog" timestamp="1591184449744">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591184449744" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591181257881">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591181257881" />
   </component>
 </project>
