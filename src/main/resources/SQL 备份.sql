@@ -26,7 +26,7 @@ select *
 from user
 where id > 2;
 
-select * from user;
+select id from user;
 
 select '21';
 
