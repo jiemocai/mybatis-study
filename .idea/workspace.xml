@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09ccb7ec-4385-4dad-bf7e-b6c001857b5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/impl/IUserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/dao/impl/IUserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dao/IUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/SQL 备份.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SQL 备份.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/MybatisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SQL 备份.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SQL 备份.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/MybatisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/MybatisTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,14 +91,14 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Itellij_workspace\framework_study\mybatis-study\src\main\resources\com" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Itellij_workspace\framework_study\mybatis-study\src\main\resources" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Itellij_workspace\framework_study\mybatis-study\src\main\resources\com" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest.testDaoImpl">
+  <component name="RunManager" selected="JUnit.MybatisTest">
     <configuration name="MybatisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-study" />
       <extension name="coverage">
@@ -163,8 +154,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MybatisTest.testDaoImpl" />
         <item itemvalue="JUnit.MybatisTest" />
+        <item itemvalue="JUnit.MybatisTest.testDaoImpl" />
         <item itemvalue="JUnit.MybatisTest.test" />
         <item itemvalue="Node.js.aa.js" />
         <item itemvalue="JUnit.MybatisTest.test" />
@@ -323,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591194474269</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="intellij 修改 2020-06-04 16:05">
+      <created>1591257860485</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1591257860485</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,7 +377,8 @@
     <MESSAGE value="intellij 修改 2020-06-03 22:04" />
     <MESSAGE value="intellij 修改 2020-06-03 22:19" />
     <MESSAGE value="intellij 修改分支1 2020-06-03 22:27" />
-    <option name="LAST_COMMIT_MESSAGE" value="intellij 修改分支1 2020-06-03 22:27" />
+    <MESSAGE value="intellij 修改 2020-06-04 16:05" />
+    <option name="LAST_COMMIT_MESSAGE" value="intellij 修改 2020-06-04 16:05" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Inspections" timestamp="1591181072273">
@@ -402,10 +401,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="557" y="243" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591240681970" />
-    <state x="531" y="112" key="CommitChangelistDialog2" timestamp="1591257698191">
+    <state x="531" y="112" key="CommitChangelistDialog2" timestamp="1591257859792">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="531" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591257698191" />
+    <state x="531" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591257859792" />
     <state x="181" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1591193362594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -414,22 +413,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591193672847" />
-    <state width="1877" height="423" key="GridCell.Tab.0.bottom" timestamp="1591241498245">
+    <state width="1439" height="136" key="GridCell.Tab.0.bottom" timestamp="1591257951170">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="423" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591241498245" />
-    <state width="1877" height="423" key="GridCell.Tab.0.center" timestamp="1591241498245">
+    <state width="1439" height="136" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591257951170" />
+    <state width="1439" height="136" key="GridCell.Tab.0.center" timestamp="1591257951170">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="423" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591241498245" />
-    <state width="1877" height="423" key="GridCell.Tab.0.left" timestamp="1591241498245">
+    <state width="1439" height="136" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591257951170" />
+    <state width="1439" height="136" key="GridCell.Tab.0.left" timestamp="1591257951170">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="423" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591241498245" />
-    <state width="1877" height="423" key="GridCell.Tab.0.right" timestamp="1591241498245">
+    <state width="1439" height="136" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591257951170" />
+    <state width="1439" height="136" key="GridCell.Tab.0.right" timestamp="1591257951170">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="423" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591241498245" />
+    <state width="1439" height="136" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591257951170" />
     <state width="1439" height="324" key="GridCell.Tab.1.bottom" timestamp="1591195438332">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

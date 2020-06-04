@@ -1,11 +1,9 @@
 package com;
 
 
-import com.dao.IUserDao;
 import com.dao.impl.IUserDaoImpl;
 import com.domain.User;
 import org.apache.ibatis.io.Resources;
-import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.junit.Test;
