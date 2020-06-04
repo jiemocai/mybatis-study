@@ -23,8 +23,15 @@
     </environments>
 
     <!-- 指定映射配置文件的位置（路径），映射配置文件指的是每个dao独立的配置文件 -->
+    <!-- 以配置文件 xml形式 ，对应IUserDao.xml 文件  -->
     <mappers>
-        <mapper resource="com/dao/IUserDao.xml" />
-    </mappers>
+            <mapper resource="com/dao/IUserDao.xml" />
+        </mappers>
+
+    <!-- 以注释形式的配置 ,要移除对应的 com/dao/IUserDao.xml 配置文件-->
+    <!-- 此时用 class 属性指定全类名-->
+<!--    <mappers>
+        <mapper class="com.dao.IUserDao" />
+    </mappers>-->
 
 </configuration>

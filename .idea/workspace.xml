@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09ccb7ec-4385-4dad-bf7e-b6c001857b5b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/第一次课程提交测试" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/impl/IUserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dao/impl/IUserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SQL 备份.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SQL 备份.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/MybatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SQL 备份.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SQL 备份.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/MybatisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/MybatisTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +58,19 @@
   <component name="FavoritesManager">
     <favorites_list name="mybatis-study" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="mybatis-staday-1" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -75,9 +96,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/com" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest.test">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Itellij_workspace\framework_study\mybatis-study\src\main\resources\com" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Itellij_workspace\framework_study\mybatis-study\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MybatisTest.testDaoImpl">
     <configuration name="MybatisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-study" />
       <extension name="coverage">
@@ -109,10 +139,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MybatisTest.testDaoImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com" />
+      <option name="MAIN_CLASS_NAME" value="com.MybatisTest" />
+      <option name="METHOD_NAME" value="testDaoImpl" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bb.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mybatis-study/com/bb.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="aa.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/main/resources/aa.js" working-dir="$PROJECT_DIR$/src/main/resources">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MybatisTest.test" />
+        <item itemvalue="JUnit.MybatisTest.testDaoImpl" />
         <item itemvalue="JUnit.MybatisTest" />
+        <item itemvalue="JUnit.MybatisTest.test" />
+        <item itemvalue="Node.js.aa.js" />
+        <item itemvalue="JUnit.MybatisTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -252,8 +307,23 @@
       <option name="presentableId" value="Default" />
       <updated>1591193592866</updated>
       <workItem from="1591193594052" duration="118000" />
+      <workItem from="1591234700689" duration="4825000" />
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="intellij 修改 2020-06-03 22:19">
+      <created>1591194003048</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1591194003048</updated>
+    </task>
+    <task id="LOCAL-00018" summary="intellij 修改分支1 2020-06-03 22:27">
+      <created>1591194474269</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1591194474269</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +377,9 @@
     <MESSAGE value="intellij 修改 2020-06-03 19:20" />
     <MESSAGE value="intellij 修改 2020-06-03 19:52" />
     <MESSAGE value="intellij 修改 2020-06-03 22:04" />
-    <option name="LAST_COMMIT_MESSAGE" value="intellij 修改 2020-06-03 22:04" />
+    <MESSAGE value="intellij 修改 2020-06-03 22:19" />
+    <MESSAGE value="intellij 修改分支1 2020-06-03 22:27" />
+    <option name="LAST_COMMIT_MESSAGE" value="intellij 修改分支1 2020-06-03 22:27" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Inspections" timestamp="1591181072273">
@@ -318,14 +390,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1591180901800" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591195170474">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591195170474" />
     <state x="695" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591181368147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="695" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591181368147" />
-    <state x="531" y="112" key="CommitChangelistDialog2" timestamp="1591193748892">
+    <state x="557" y="243" key="#com.intellij.ide.util.MemberChooser" timestamp="1591240681970">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="531" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591193748892" />
+    <state x="557" y="243" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591240681970" />
+    <state x="531" y="112" key="CommitChangelistDialog2" timestamp="1591194473563">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="531" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591194473563" />
     <state x="181" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1591193362594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -334,54 +414,74 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591193672847" />
-    <state width="938" height="226" key="GridCell.Tab.0.bottom" timestamp="1591191847828">
+    <state width="1877" height="423" key="GridCell.Tab.0.bottom" timestamp="1591241498245">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="226" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591191847828" />
-    <state width="938" height="226" key="GridCell.Tab.0.center" timestamp="1591191847828">
+    <state width="1877" height="423" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591241498245" />
+    <state width="1877" height="423" key="GridCell.Tab.0.center" timestamp="1591241498245">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="226" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591191847828" />
-    <state width="938" height="226" key="GridCell.Tab.0.left" timestamp="1591191847828">
+    <state width="1877" height="423" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591241498245" />
+    <state width="1877" height="423" key="GridCell.Tab.0.left" timestamp="1591241498245">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="226" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591191847828" />
-    <state width="938" height="226" key="GridCell.Tab.0.right" timestamp="1591191847828">
+    <state width="1877" height="423" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591241498245" />
+    <state width="1877" height="423" key="GridCell.Tab.0.right" timestamp="1591241498245">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="226" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591191847828" />
-    <state x="-50" y="0" width="1703" height="868" key="MergeDialog" timestamp="1591185001620">
+    <state width="1877" height="423" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591241498245" />
+    <state width="1439" height="324" key="GridCell.Tab.1.bottom" timestamp="1591195438332">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="-50" y="0" width="1703" height="868" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591185001620" />
-    <state x="669" y="235" key="MultipleFileMergeDialog" timestamp="1591185001627">
+    <state width="1439" height="324" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591195438332" />
+    <state width="1439" height="324" key="GridCell.Tab.1.center" timestamp="1591195438331">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="669" y="235" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591185001627" />
+    <state width="1439" height="324" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591195438331" />
+    <state width="1439" height="324" key="GridCell.Tab.1.left" timestamp="1591195438331">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1439" height="324" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591195438331" />
+    <state width="1439" height="324" key="GridCell.Tab.1.right" timestamp="1591195438331">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1439" height="324" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591195438331" />
+    <state x="91" y="34" width="1703" height="868" key="MergeDialog" timestamp="1591194414000">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="91" y="34" width="1703" height="868" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591194414000" />
+    <state x="669" y="235" key="MultipleFileMergeDialog" timestamp="1591194627838">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="669" y="235" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591194627838" />
     <state x="867" y="286" key="SettingsEditor" timestamp="1591193712658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="867" y="286" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591193712658" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1591193404304">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1591194491765">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591193404304" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591194491765" />
     <state x="909" y="371" key="VcsDiffUtil.ChangesDialog" timestamp="1591184286875">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="909" y="371" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591184286875" />
+    <state x="430" y="571" key="com.intellij.ide.util.TipDialog" timestamp="1591234702723">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="430" y="571" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591234702723" />
     <state x="609" y="201" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591183769772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="609" y="201" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591183769772" />
-    <state x="706" y="232" key="git4idea.branch.GitSmartOperationDialog" timestamp="1591193251460">
+    <state x="706" y="232" key="git4idea.branch.GitSmartOperationDialog" timestamp="1591194621679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="706" y="232" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591193251460" />
-    <state x="703" y="311" key="git4idea.merge.GitMergeDialog" timestamp="1591193428682">
+    <state x="706" y="232" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591194621679" />
+    <state x="703" y="311" key="git4idea.merge.GitMergeDialog" timestamp="1591194091727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="703" y="311" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591193428682" />
+    <state x="703" y="311" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591194091727" />
     <state x="656" y="311" key="git4idea.merge.GitPullDialog" timestamp="1591184449744">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
