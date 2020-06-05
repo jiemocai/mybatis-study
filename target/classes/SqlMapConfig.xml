@@ -5,6 +5,42 @@
 
 <!-- mybatis的主配置文件 -->
 <configuration>
+
+    <!-- 配置 properties
+        可以在标签内部配置数据库的连接信息，也可以通过属性引用外部配置文件的信息
+        resource 属性，常用的
+            用于指定配置文件的位置，是按照类路径的写法来写，并且必须存在与类路径下。
+        url 属性：
+            要求按照 url 的写法来写地址
+            URL : uniform resource locator 统一资源定位符。它是可以唯一标识一个资源的位置
+            写法：
+            http://127.0.0.1:8080/mybatis/dome1Server
+            协议    主机      端口   URI
+            file:\\\C:\Users\cai\Desktop\spring  （file 协议，默认端口，不要有中文）
+
+            URI : uniform resource identifier 统一资源标识符，它是在应用中可以唯一定位一个资源的。
+            例如：项目绝对路径
+
+            <properties url="file:///D:/Itellij_workspace/framework_study/mybatis-study/src/main/resources/jdbcConfig.properties">
+    -->
+    <properties resource="jdbcConfig.properties">
+        <!--        <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://192.168.109.130:3306/mybatis_test?serverTimezone=UTC&amp;useUnicode=true&amp;characterEncoding=UTF-8"/>
+                <property name="username" value="root"/>
+                <property name="password" value="root"/>-->
+    </properties>
+
+    <!-- 使用typeAliases 配置别名，他只能配置domain 中实体类的别名  -->
+    <typeAliases>
+        <!-- typeAlias 用于配置类的别名，type 指定全类名，alias 指定别名 ，指定别名后 不区分大小写 -->
+       <!-- <typeAlias type="com.domain.User" alias="user"></typeAlias>-->
+
+        <!-- 太多的 typeAlias 则很复杂
+        package 用于指定要配置别名的包，当指定后，该包下的全部实体类都会注册别名，并且类名就是别名，不在区分大小写 -->
+        <package name="com.domain"/>
+    </typeAliases>
+
+
     <!-- 配置环境 -->
     <environments default="mysql">
         <!-- 配置 mysql 的环境-->
@@ -14,10 +50,10 @@
             <!-- 配置数据源（连接池） -->
             <dataSource type="POOLED">
                 <!-- 配置连接数据库的4个基本信息-->
-                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://192.168.109.130:3306/mybatis_test?serverTimezone=UTC"/>
-                <property name="username" value="root"/>
-                <property name="password" value="root"/>
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
             </dataSource>
         </environment>
     </environments>
@@ -25,13 +61,17 @@
     <!-- 指定映射配置文件的位置（路径），映射配置文件指的是每个dao独立的配置文件 -->
     <!-- 以配置文件 xml形式 ，对应IUserDao.xml 文件  -->
     <mappers>
-            <mapper resource="com/dao/IUserDao.xml" />
-        </mappers>
+        <!--<mapper resource="com/dao/IUserDao.xml"/>-->
 
-    <!-- 以注释形式的配置 ,要移除对应的 com/dao/IUserDao.xml 配置文件-->
-    <!-- 此时用 class 属性指定全类名-->
-<!--    <mappers>
-        <mapper class="com.dao.IUserDao" />
-    </mappers>-->
+        <!-- package 用于指定dao接口所在的包，当指定之后就不需要再写mapper以及 resource 或者class -->
+        <package name="com.dao"/>
+
+    </mappers>
+
+    <!--     以注释形式的配置 ,要移除对应的 com/dao/IUserDao.xml 配置文件
+        此时用 class 属性指定全类名-->
+    <!--    <mappers>
+            <mapper class="com.dao.IUserDao" />
+        </mappers>-->
 
 </configuration>

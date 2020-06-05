@@ -4,8 +4,79 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.dao.IUserDao">
-    <!-- 配置查询所有 -->
-    <select id="findAll" resultType="com.domain.User"> /* id的值要和 com.dao.IUserDao 中方法名称一致 */
+    <!-- 配置查询所有
+
+     id的值要和 com.dao.IUserDao 中方法名称一致 ；
+     resultType="user"  使用了别名 代替了com.domain.User ，在 SqlMapConfig.xml 中的 typeAliases/package 标签
+    -->
+    <select id="findAll" resultType="user">
         select * from user;
+    </select>
+
+    <!-- 保存用户 -->
+    <!-- #{username} ...  必须是实体类中的属性，和get方法有关 -->
+    <insert id="saveUser" parameterType="com.domain.User">
+        <!-- 获取最新插入数据的id -->
+        <selectKey keyProperty="id" keyColumn="id" resultType="int" order="AFTER">
+            SELECT LAST_INSERT_ID();
+        </selectKey>
+
+        insert into user(username,birthday,sex,address) values(#{username},#{birthday},#{sex},#{address});
+    </insert>
+
+    <!-- 更新用户 -->
+    <update id="updateUser" parameterType="com.domain.User">
+        update user set username = #{username},birthday = #{birthday},sex = #{sex},address = #{address} where id = #{id}
+    </update>
+
+    <!-- 删除用户-->
+    <!-- 基本类型： parameterType="int" / java.lang.Integer/ Integer 都可以-->
+    <update id="deleteUser" parameterType="int">
+        <!-- #{可以随便写，占位即可}-->
+        delete from user where id = #{id}
+    </update>
+
+    <!-- 查询一个用户-->
+    <select id="findById" parameterType="java.lang.Integer" resultType="com.domain.User">
+        select * from user where id= #{id}
+    </select>
+
+    <!-- 根据name模糊查询一个用户-->
+    <select id="findByName" parameterType="java.lang.String" resultType="com.domain.User">
+        select * from user where username like #{name}
+
+        <!-- 使用${value}时，参数必须是 value
+        select * from user where username like '${value}%'
+        -->
+
+    </select>
+
+    <!-- 使用总条数， 使用聚族函数-->
+    <select id="findTotal" resultType="int">
+        select count(*) from user
+    </select>
+
+
+    <!--pojo 表达式使用， 根据name模糊查询一个用户-->
+    <!-- 此时已经有了com.domain.QueryVo 对象，简化操作，故直接能获取属性，user 然后 . 获取其他属性，省略get  -->
+    <select id="findNameByVo" parameterType="com.domain.QueryVo" resultType="com.domain.User">
+        select * from user where sex = #{sex} and username like #{user.username}
+    </select>
+
+
+    <!-- 当实体类和数据库返回字段不一致时：
+          1.SQL select 字段使用别名;  >> 执行效率高
+          2.使用 resultMap 标签封装，java 实体类的属性 与 数据库字段对应;  >> 重构与开发快
+     -->
+    <resultMap id="userMap" type="com.domain.User">
+        <!-- 首先封装主键 -->
+        <id property="id" column="id"></id>
+        <!-- 其他 -->
+        <result property="username" column="username"></result>
+    </resultMap>
+    <!--resultType="com.domain.User" 失效， 改用 resultMap -->
+    <select id="findAll2" resultMap="userMap">
+        select * from user;
+        <!--  select id, username , birthday birthday1, sex, address from user;-->
     </select>
 </mapper>
